@@ -630,7 +630,7 @@ h3 {
   background-position: center;
   background-attachment: fixed;
   box-sizing: border-box;
-  padding: 5rem 2rem;
+  padding: 2rem 2rem;
   overflow: hidden;
 }
 
@@ -715,7 +715,7 @@ h3 {
   background-position: center;
   background-blend-mode: soft-light;
   background-color: var(--black);
-  padding: 5rem 4% 2rem;
+  padding: 2rem 4% 2rem;
   position: relative;
 
 }
@@ -783,7 +783,7 @@ h3 {
   flex-direction: column;
   align-items: stretch;
   gap: 0;
-  padding: 2.2rem 2rem;
+  padding: 1.2rem 2rem;
   background-color: var(--dark-2);
   border-radius: 0 0.5rem 0.5rem 0;
   box-shadow: var(--shadow);
