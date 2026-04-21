@@ -302,7 +302,7 @@
   <!-- ===== FOOTER ===== -->
   <footer class="text-center text-lg-start">
     <div class="text-center p-3 footer-style">
-      <p>© 2025 Jeremias Basile - Nahuel Caporale</p>
+      <p id="copy"></p>
       <a class="foot-vinc" href="#home">Volver al inicio</a>
     </div>
   </footer>
@@ -312,6 +312,10 @@
   </script>
 
   <script>
+    const year= new Date().getFullYear();
+    let copy = document.querySelector("#copy")
+    copy.innerHTML= `© ${year} Jeremias Basile - Nahuel Caporale`;
+    
     document.querySelectorAll('.vinc-style').forEach(link => {
       link.addEventListener('click', e => {
         e.preventDefault();
